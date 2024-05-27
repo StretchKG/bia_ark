@@ -1,0 +1,161 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Young Serif', sans-serif;
+}
+
+html {
+    height: 150vh;
+    font-size: 14px;
+}
+
+body {
+    background: url(https://imgur.com/wFwAhnZ.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 550px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Degrade button style */
+.degrade {
+    background: linear-gradient(to right, #9e0000, #000000);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: transform .2s;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+header img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+/* Button links section */
+.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+    transition: transform .2s;
+}
+
+a.link i {
+    font-size: 1.5em;
+}
+
+a.link button:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a.btn-footer {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2.3em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: transform .2s;
+}
+
+footer a.btn-footer:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Image container styles */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper {
+    margin-top: 20px;
+}
+
+.image {
+    width: 200px;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px ;
+    transition: transform .2s;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.image-title,
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer text styles */
+footer p,
+footer a {
+    font-family: 'Courier', sans-serif; /* Adicionei a fonte aqui */
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.instagram {
+    color: #00aa00;
+}
